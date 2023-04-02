@@ -34,6 +34,9 @@ StyleDictionary.registerTransform({
     name.shift();
     if (name[0] === 'body' || name[0] === 'heading') {
       name.shift();
+
+      if (token.type === 'typography')
+        name.unshift('font');
     }
     return name.join('-');
   }
@@ -67,6 +70,9 @@ StyleDictionary.registerTransform({
     name.shift();
     if (name[0] === 'Body' || name[0] === 'Heading') {
       name.shift();
+
+      if (token.type === 'typography')
+        name.unshift('font');
     }
     return _.camelCase( name );
   }
