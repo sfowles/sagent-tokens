@@ -2,11 +2,11 @@
     "name": "sagent-design-tokens",
     "version": "1.0.0",
     "description": "",
-    "main": "build/index.js",
+    "main": "tokens/index.js",
     "type": "module",
     "files": [
-      "build",
-      "tokens"
+      "tokens",
+      "json"
     ],
     "scripts": {
       "build": "node ./src/build.js",

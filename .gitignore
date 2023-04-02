@@ -1,5 +1,5 @@
 node_modules
 figma
-build
+tokens
 .DS_Store
 package-lock.json

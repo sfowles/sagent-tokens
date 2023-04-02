@@ -1,9 +1,9 @@
 export default {
-  source: ["./tokens/**/*.json"],
+  source: ["./json/**/*.json"],
   platforms: {
     css: {
       transformGroup: "custom/css",
-      buildPath: "./build/css/",
+      buildPath: "./tokens/css/",
       files: [
         {
           destination: "_variables.css",
@@ -13,7 +13,7 @@ export default {
     },
     scss: {
       transformGroup: "custom/scss",
-      buildPath: "./build/scss/",
+      buildPath: "./tokens/scss/",
       files: [{
         destination: "_variables.scss",
         format: "scss/variables"
@@ -21,7 +21,7 @@ export default {
     },
     js: {
       transformGroup: "custom/js",
-      buildPath: "./build/js/",
+      buildPath: "./tokens/js/",
       files: [{
         destination: "tokens.js",
         format: "javascript/es6"
@@ -29,7 +29,7 @@ export default {
     },
     ts: {
       transformGroup: "custom/js",
-      buildPath: "./build/js/",
+      buildPath: "./tokens/js/",
       files: [{
         destination: "tokens.d.ts",
         format: "typescript/es6-declarations"
