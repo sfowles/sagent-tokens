@@ -1,0 +1,26 @@
+{
+  "Cool Ebony": {
+    "value": "#1c2126",
+    "type": "color"
+  },
+  "Alto Gray": {
+    "value": "#cecece",
+    "type": "color"
+  },
+  "Aeros Purple": {
+    "value": "#5b48fb",
+    "type": "color"
+  },
+  "Aeros Purple (Tint 1)": {
+    "value": "#766be8",
+    "type": "color"
+  },
+  "Aeros Purple (Tint 2)": {
+    "value": "#938ade",
+    "type": "color"
+  },
+  "Aeros Purple (Tint 3)": {
+    "value": "#b0acd6",
+    "type": "color"
+  }
+}
