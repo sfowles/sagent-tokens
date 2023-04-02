@@ -20,4 +20,3 @@ js
 
 ts
 ✔︎  ./build/js/tokens.d.ts
-```
